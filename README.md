@@ -7,14 +7,14 @@ LogVar 弹幕 API 服务器
 </h2>
 
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github)](https://github.com/huangxd-/danmu_api)
-![GitHub forks](https://img.shields.io/github/forks/huangxd--/danmu_api)
-![GitHub Repo stars](https://img.shields.io/github/stars/huangxd--/danmu_api)
-![GitHub License](https://img.shields.io/github/license/huangxd--/danmu_api)
+![GitHub forks](https://img.shields.io/github/forks/huangxd-/danmu_api)
+![GitHub Repo stars](https://img.shields.io/github/stars/huangxd-/danmu_api)
+![GitHub License](https://img.shields.io/github/license/huangxd-/danmu_api)
 ![Docker Image Version](https://img.shields.io/docker/v/logvar/danmu-api?sort=semver)
 ![Docker Pulls](https://img.shields.io/docker/pulls/logvar/danmu-api)
 [![telegram](https://img.shields.io/static/v1?label=telegram&message=telegram_channel&color=blue)](https://t.me/logvar_danmu_channel)
 [![telegram](https://img.shields.io/static/v1?label=telegram&message=telegram_group&color=blue)](https://t.me/logvar_danmu_group)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/huangxd--/danmu_api)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/huangxd-/danmu_api)
 
 ---
 
@@ -360,7 +360,7 @@ API 支持返回 Bilibili 标准 XML 格式的弹幕数据，通过查询参数 
 > 
 > 小幻在使用时可能出现掉匹配无法加载弹幕的问题，详见[这个issue](https://github.com/huangxd-/danmu_api/issues/33)，可以通过配置环境变量`UPSTASH_REDIS_REST_URL`和`UPSTASH_REDIS_REST_TOKEN`，开启upstash redis存储解决
 > 
-> 有很多人问FW能不能用，FW推荐直接使用插件，如果非要使用，则可以配合 `https://raw.githubusercontent.com/huangxd--/ForwardWidgets/refs/heads/main/widgets.fwd` 里的`danmu_api`插件使用
+> 有很多人问FW能不能用，FW推荐直接使用插件，如果非要使用，则可以配合 `https://raw.githubusercontent.com/huangxd-/ForwardWidgets/refs/heads/main/widgets.fwd` 里的`danmu_api`插件使用
 
 ## 环境变量列表
 | 变量名称      | 描述 |
@@ -640,7 +640,7 @@ API 支持返回 Bilibili 标准 XML 格式的弹幕数据，通过查询参数 
 - 弹幕分片下载请求已加入重试机制，重试次数为1次
 - 如果同时配置了本地缓存和redis缓存，则以redis缓存优先
 - 弹弹play源用的是第三方接口，感谢开源项目 [danmaku-anywhere](https://github.com/Mr-Quin/danmaku-anywhere)
-- 有任何问题，如部署/环境变量配置等，可通过deepwiki对本项目进行提问，链接入口：https://deepwiki.com/huangxd--/danmu_api，其中项目内容一般每周刷新一次
+- 有任何问题，如部署/环境变量配置等，可通过deepwiki对本项目进行提问，链接入口：https://deepwiki.com/huangxd-/danmu_api，其中项目内容一般每周刷新一次
 
 ### 关联项目
 [喂饭教程1：danmu_api vercel 自动同步部署方案 - 永远保持最新版本！实时同步原作者更新](https://github.com/xiaoyao20084321/log-var-danmu-deployment-guide)
@@ -660,7 +660,7 @@ API 支持返回 Bilibili 标准 XML 格式的弹幕数据，通过查询参数 
 
 ### 贡献者
 <a href="https://github.com/huangxd-/danmu_api/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=huangxd--/danmu_api" alt="contributors" />
+  <img src="https://contrib.rocks/image?repo=huangxd-/danmu_api" alt="contributors" />
 </a>
 
 ### 📈项目 Star 数增长趋势
